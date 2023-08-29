@@ -1,0 +1,62 @@
+h1 {
+    color: red
+}
+
+h1:hover {
+    color: aqua;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: fuchsia;
+
+}
+
+a:active {
+    color: beige;
+}
+
+
+input[type="text"]:focus{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 5px aqua;
+    padding: 5px 5px;
+
+}
+
+input[type="checkboc"]:checked{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 5px aqua;
+}
+
+/* section p:first-of-type{
+    color: red;
+} */
+
+
+/* section p:last-child{
+    color: red;
+}
+
+section p:nth-child(odd){
+    color: fuchsia
+} */
+
+section p:nth-of-type(3){
+    color:fuchsia;
+}
